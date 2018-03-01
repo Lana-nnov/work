@@ -19,11 +19,11 @@ body {
   display: flex;
   flex-direction: column;  
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../img/pattern.png");
-  height: 338px;
+  height: 310px;
   background-repeat: no-repeat, repeat;
   background-size: auto, 200px 200px;
   background-color: #8cf83f;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .header::before {
@@ -49,8 +49,8 @@ body {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-  font-size: 47px;
-  line-height: 47px;
+  font-size: 42px;
+  line-height: 40px;
   color: #ffffff;
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
@@ -62,11 +62,12 @@ body {
   text-transform: uppercase;
   font-size: 21px;
   line-height: 21px;
+  margin-top: 27px;
 }	
 
 .header__container {
   width: 100%; 
-  margin-bottom: 100px;  
+  margin-bottom: 80px;  
   background-color: #ffffff;
   border-top: 10px solid #e7e7e7;
   border-bottom: 10px solid #e7e7e7;
