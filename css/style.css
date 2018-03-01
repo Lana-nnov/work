@@ -5,6 +5,14 @@ body {
   color: #2d3141;
 }
 
+.container {
+	width: 1300px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 2px 0 5px 0 #cccccc,
+	-2px 0 5px 0 #cccccc;
+}	
+
 .header {
   min-width: 1300px;	
   position: relative;
@@ -24,7 +32,7 @@ body {
   bottom: 0;
   right: 50%;
   border-top: 120px solid transparent;
-  border-left: 50vw solid #ffffff;
+  border-left: 650px solid #ffffff;
 }
 
 .header::after {
@@ -33,7 +41,7 @@ body {
   bottom: 0;
   left: 50%;
   border-top: 120px solid transparent;
-  border-right: 50vw solid #ffffff;
+  border-right: 650px solid #ffffff;
 }
 
 .header__title {
