@@ -121,6 +121,8 @@ body {
 
 .main {  
   padding-top: 34px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 1300px;
   margin: 0 auto;
 }
@@ -148,31 +150,31 @@ body {
 
 .main__courses {
   position: relative;	
-  width: 550px;
+  width: 510px;
   padding-right: 100px;  
 }
 
 .main__courses::before {
   content:"";
   position: absolute;
-  top: 60px;
+  top: 80px;
   right: 40px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   box-shadow: 0 140px 0 0 #8bce44, 0 280px 0 0 #8bce44;
   background-color: #8bce44;  
+  z-index: 2;
 }
 
 .main__courses::after {
   content:"";
   position: absolute;
-  top: 60px;
+  top: 80px;
   right: 47px;
   width: 1px;
   height: 280px;
   background-color: #d1d6e6;
-  z-index: -1;
 }
 
 .courses__link {
@@ -221,32 +223,32 @@ body {
 
 .main__skills {
   position: relative;
-  width: 550px;
+  width: 510px;
   padding-left: 100px; 
 }
 
 .main__skills::before {
   content:"";
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 40px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   box-shadow: 0 140px 0 0 #8bce44, 0 280px 0 0 #8bce44;
-  background-color: #8bce44;  
+  background-color: #8bce44; 
+  z-index: 2;  
 }
 
 .main__skills::after {
   content:"";
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 47px;
   width: 1px;
   height: 280px;
   background-color: #d1d6e6;
-  z-index: -1;
-}
+}  
 
 .skills__link {
   color: #2d3141;
@@ -284,7 +286,7 @@ body {
 
 .work__place {	
   position: relative;	
-  width: 546px;
+  width: 506px;
   padding-left: 100px;
 }
 
@@ -439,7 +441,7 @@ body {
 
 */
 .work__place:nth-child(2n) {
-  width: 550px;	
+  width: 510px;	
   padding-right: 100px;
   padding-left: 0;
 }
@@ -450,6 +452,8 @@ body {
 }	
 
 .footer {
+  padding-left: 40px;
+  padding-right: 40px;  
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
   background-repeat: no-repeat;
   height: 238px;
@@ -460,8 +464,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1300px;
-  margin: 0 auto;
   color: #fdfdfe;
 }
 
@@ -480,7 +482,7 @@ body {
   margin-top: 0;
   margin-bottom: 20px;  
   position: relative;	
-  width: 332px; 
+  width: 332px;
 }	
 
 .footer__advantages::before {
